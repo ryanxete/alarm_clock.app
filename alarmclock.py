@@ -24,11 +24,14 @@ class AlarmClock:
     def alarm_switch(self):
         if self.alarm_is_on == True:
             self.alarm_is_on = False
+            print("alarm in now off!")
         else:
              alarm_is_on == True
+             print("alarm is now on!")
 
     def set_alarm(self):
-        alarm_time
+        self.alarm_time = random.randint(0, 24)
+        print(f"alarm is set to {self.alarm_time}o'clock!")
 
 clock = AlarmClock()
 
